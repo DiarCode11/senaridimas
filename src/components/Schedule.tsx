@@ -40,10 +40,10 @@ export default function Schedule() {
 
     return (
         <div id="schedule" className="py-20 container mx-auto">
-            <h1 className="w-full text-center sm:text-3xl text-2xl font-bold uppercase">Jadwal & Pendaftaran</h1>
+            <h1 className="w-full text-center c sm:text-3xl text-2xl font-bold uppercase">Jadwal & Pendaftaran</h1>
             <div className="grid grid-cols-1 sm:grid-cols-6 sm:gap-x-4 gap-y-5 pt-10 px-4">
                 <div className="col-span-2 border border-gray-300 rounded-md">
-                    <div className="p-5 border-b uppercase font-bold text-xl">
+                    <div className="p-5 border-b uppercase font-bold text-xl text-center sm:text-start">
                         Jadwal
                     </div>
                     <div>
@@ -93,7 +93,10 @@ export default function Schedule() {
                             <li>
                                 Peserta yang dinyatakan diterima wajib menyiapkan file presentasi serta melakukan presentasi pada jadwal yang telah ditetapkan.
                             </li>
-                            </ol>
+                            <li>
+                                Pemakalah melakukan pembayaran ke no rek <strong>XXXXX (BRI)</strong> a.n. <strong>QWERTYUIOP</strong> dan wajib konfirmasi <a href="https://forms.gle/yjkfS7g99SBqyT7B9" className="underline pl-1 font-semibold text-purple-700">disini</a>.
+                            </li>
+                        </ol>
                     </div>
                     <div className="py-5 px-7">
                         <h1 className="uppercase text-green-700 font-bold text-2xl">senadimas</h1>
@@ -115,10 +118,9 @@ export default function Schedule() {
                                 </div>
                             </li>
                             <li>
-                                Pemakalah melakukan pembayaran dan melakukan konfirmasi pembayaran.
+                                Pemakalah melakukan pembayaran ke no rek <strong>XXXXX (BRI)</strong> a.n. <strong>QWERTYUIOP</strong> dan wajib konfirmasi <a href="https://forms.gle/7PxzY1ZTa5Gx6vnq5" className="underline pl-1 font-semibold text-green-700">disini</a>.
                             </li>
-                            </ol>
-
+                        </ol>
                     </div>
                 </div>
             </div>

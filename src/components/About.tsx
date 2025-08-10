@@ -79,9 +79,9 @@ export default function About() {
                                 </div>
                             )) }
                     </div>
-                    <a href="#payment">
+                    {/* <a href="#payment">
                         <button className="py-2 mt-4 w-full border-2 rounded-md bg-purple-700 text-lg font-semibold text-white">Daftar Sekarang</button>
-                    </a>
+                    </a> */}
                </div>
             </div>
         </div>

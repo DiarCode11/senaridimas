@@ -1,5 +1,5 @@
-import senariLogo from "../assets/senari-9-logo.png";
-import senadimasLogo from "../assets/logo-putih.png";
+import senariLogo from "../assets/2.png";
+import senadimasLogo from "../assets/3.png";
 import erlin from "../assets/speaker/erlin.jpg"
 import purnamawati from "../assets/speaker/I-Gusti-Purnamawati.webp"
 import lutfi from "../assets/speaker/lutfi.jpg"
@@ -60,7 +60,7 @@ export default function Speaker() {
             <span>
               <img
                 src={group.logo}
-                className={group.category === "SENADIMAS" ? "w-44 -translate-y-5" : "w-44"}
+                className={group.category === "SENADIMAS" ? "w-44" : "w-40 -translate-y-1 pl-2"}
                 alt={`Logo ${group.category}`}
               />
             </span>

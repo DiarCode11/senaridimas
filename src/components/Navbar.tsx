@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../assets/senari-9-logo.png'
+import logo from '../assets/1.png'
 import { Menu, X } from 'lucide-react'
 
 export type NavbarProps = {

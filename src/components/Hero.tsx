@@ -16,15 +16,20 @@ export default function Hero() {
                 >
                     <span className="text-2xl text-shadow-amber-100 font-semibold">Selamat Datang di</span>
                     <br></br>
-                    SENARIDIMAS (SENARI DAN SENADIMAS ) 2025
+                    SENARIDIMAS 2025 (SENARI DAN SENADIMAS )
                 </h1>
                 <p className="text-center text-white shadow-2xl">
                     Riset dan Pengabdian untuk Indonesia: Mewujudkan Kampus Berdampak dalam Pembangunan Berkelanjutan
                 </p>
-                <div className="flex justify-center pt-7">
-                    <a href="#payment">
+                <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-7">
+                    <a href="https://eproceeding.undiksha.ac.id/index.php/senari" target="_blank">
+                        <button className="uppercase text-white text-lg bg-purple-700 hover:scale-105 transition-all ease-in-out duration-500 rounded-full py-2 px-6 font-semibold">
+                            Submit Artikel Senari
+                        </button>
+                    </a>
+                    <a href="https://eproceeding.undiksha.ac.id/index.php/SENADIMAS" target="_blank">
                         <button className="uppercase text-white text-lg bg-green-700 hover:scale-105 transition-all ease-in-out duration-500 rounded-full py-2 px-6 font-semibold">
-                            Daftar Sekarang
+                            Submit Artikel Senadimas
                         </button>
                     </a>
                 </div>

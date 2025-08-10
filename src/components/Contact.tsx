@@ -13,22 +13,26 @@ export default function Contact() {
         {
             id: 1,
             icon: <Home />,
-            name: "Lembaga Penelitian dan Pengabdian Kepada Masyarakat (LPPM) Undiksha"
+            name: "Lembaga Penelitian dan Pengabdian Kepada Masyarakat (LPPM) Undiksha",
+            url: "https://www.google.com/search?q=Lembaga+Penelitian+dan+Pengabdian+Kepada+Masyarakat+(LPPM)+Undiksha&oq=Lembaga+Penelitian+dan+Pengabdian+Kepada+Masyarakat+(LPPM)+Undiksha&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBBzI5MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8"
         },
         {
             id: 2,
             icon: <MapPin />,
-            name: "Jalan Udayana No. 11 Singaraja, Bali"
+            name: "Jalan Udayana No. 11 Singaraja, Bali",
+            url: "https://maps.app.goo.gl/RHwpfrWqpomLSfrf9"
         },
         {
             id: 3,
             icon: <Mail />,
-            name: "senaridimas.lppm@undiksha.ac.id"
+            name: "senari@undiksha.ac.id",
+            url: "https://mail.google.com/mail/?view=cm&fs=1&to=senari@undiksha.ac.id"
         },
         {
             id: 4,
             icon: <Globe />,
-            name: "https://lppm.undiksha.ac.id/"
+            name: "https://lppm.undiksha.ac.id/",
+            url: "https://lppm.undiksha.ac.id/"
         },
     ];
 
@@ -61,10 +65,12 @@ export default function Contact() {
                 <div className="order-2 sm:order-1">
                     <h1 className="font-bold text-2xl uppercase pb-8">Pengelenggara</h1>
                     { OrganizerInfo.map((data, idx) => (
-                        <div key={idx} className="flex items-center space-x-3 pb-5">
-                            <span className="p-2 rounded-full bg-white text-gray-800 flex justify-center items-center">{data.icon}</span>
-                            <span className="text-sm">{data.name}</span>
-                        </div>
+                        <a href={data.url} target="_blank">
+                            <div key={idx} className="flex items-center space-x-3 pb-5 cursor-pointer">
+                                <span className="p-2 rounded-full bg-white text-gray-800 flex justify-center items-center">{data.icon}</span>
+                                <span className="text-sm">{data.name}</span>
+                            </div>
+                        </a>
                     )) }
                 </div>
                 <div className="order-1 sm:order-2">
