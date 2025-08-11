@@ -81,7 +81,7 @@ export default function Schedule() {
                         <ol className="list-decimal list-inside opacity-55 space-y-2">
                             <li>
                                 Peserta dapat mendaftarkan Abstrak atau Full paper
-                                <a href="https://eproceeding.undiksha.ac.id/index.php/SENARI/index" className="underline pl-1 font-semibold text-purple-700 ">
+                                <a target="_blank" href="https://eproceeding.undiksha.ac.id/index.php/SENARI/index" className="underline pl-1 font-semibold text-purple-700 ">
                                     di sini
                                 </a>
                             </li>
@@ -92,13 +92,13 @@ export default function Schedule() {
                                 Full paper terpilih akan <strong>DIREKOMENDASIKAN</strong> untuk dapat di-submit ke Jurnal Undiksha yang telah terakreditasi (SINTA 2).
                             </li>
                             <li>
-                                Full paper ditulis dalam Bahasa Indonesia atau Bahasa Inggris sesuai <a href="https://conference.undiksha.ac.id/senari/assets/tamplate/Template%20Senari.docx" className="underline pl-1 font-semibold text-purple-700">template Senari</a>
+                                Full paper ditulis dalam Bahasa Indonesia atau Bahasa Inggris sesuai <a target="_blank" href="https://conference.undiksha.ac.id/senari/assets/tamplate/Template%20Senari.docx" className="underline pl-1 font-semibold text-purple-700">template Senari</a>
                             </li>
                             <li>
                                 Peserta yang dinyatakan diterima wajib menyiapkan file presentasi serta melakukan presentasi pada jadwal yang telah ditetapkan.
                             </li>
                             <li>
-                                Pemakalah melakukan pembayaran ke no rek <strong>{no_rek} ({bank})</strong> a.n. <strong>{atas_nama}</strong> dan wajib konfirmasi <a href="https://forms.gle/yjkfS7g99SBqyT7B9" className="underline pl-1 font-semibold text-purple-700">disini</a>.
+                                Pemakalah melakukan pembayaran ke no rek <strong>{no_rek} ({bank})</strong> a.n. <strong>{atas_nama}</strong> dan wajib konfirmasi <a target="_blank" href="https://forms.gle/yjkfS7g99SBqyT7B9" className="underline pl-1 font-semibold text-purple-700">disini</a>.
                             </li>
                         </ol>
                     </div>
@@ -107,21 +107,21 @@ export default function Schedule() {
                         <ol className="list-decimal list-inside opacity-55 space-y-3">
                             <li>
                                 Pemakalah wajib mengumpulkan artikel/makalah lengkap (full paper) yang nantinya akan melalui proses blind review
-                                <a href="https://eproceeding.undiksha.ac.id/index.php/SENADIMAS" target="_blank" className="underline pl-1 font-semibold text-green-700 ml-1">di sini</a>
+                                <a target="_blank" href="https://eproceeding.undiksha.ac.id/index.php/SENADIMAS" className="underline pl-1 font-semibold text-green-700 ml-1">di sini</a>
                             </li>
                             <li>
                                 Full paper ditulis dalam Bahasa Indonesia atau Bahasa Inggris sesuai 
-                                <a href="https://docs.google.com/document/d/1G5kaCHycK88zqj_m2JQpQQzXzrpDUKGE/edit?tab=t.0" className="underline pl-1 font-semibold text-green-700 ml-1">template Senadimas</a>
+                                <a target="_blank" href="https://docs.google.com/document/d/1G5kaCHycK88zqj_m2JQpQQzXzrpDUKGE/edit?tab=t.0" className="underline pl-1 font-semibold text-green-700 ml-1">template Senadimas</a>
                             </li>
                             <li>
                                 Pemakalah yang full papernya dinyatakan diterima wajib mengunggah video presentasinya pada Akun Google Drive pribadi dan di-set <em>Open Access</em>.
                                 Tautan video presentasi tersebut dicantumkan pada form konfirmasi pembayaran.
                                 <div className="mt-1 space-x-3">
-                                <a href="https://conference.undiksha.ac.id/senadimas/assets/file/template_video.pdf" className="underline pl-1 font-semibold text-green-700">Tautan Ketentuan Video</a>
+                                <a target="_blank" href="https://conference.undiksha.ac.id/senadimas/assets/file/template_video.pdf" className="underline pl-1 font-semibold text-green-700">Tautan Ketentuan Video</a>
                                 </div>
                             </li>
                             <li>
-                                Pemakalah melakukan pembayaran ke no rek <strong>{no_rek} ({bank})</strong> a.n. <strong>{atas_nama}</strong> dan wajib konfirmasi <a href="https://forms.gle/7PxzY1ZTa5Gx6vnq5" className="underline pl-1 font-semibold text-green-700">disini</a>.
+                                Pemakalah melakukan pembayaran ke no rek <strong>{no_rek} ({bank})</strong> a.n. <strong>{atas_nama}</strong> dan wajib konfirmasi <a target="_blank" href="https://forms.gle/7PxzY1ZTa5Gx6vnq5" className="underline pl-1 font-semibold text-green-700">disini</a>.
                             </li>
                         </ol>
                     </div>

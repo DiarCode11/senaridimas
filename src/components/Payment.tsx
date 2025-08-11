@@ -61,12 +61,12 @@ export default function Payment() {
                                 Pilih salah satu dari seminar berikut untuk melanjutkan
                             </h3>
                             <div className="flex justify-center space-x-7 text-xl text-white py-10">
-                                <a href="https://forms.gle/yjkfS7g99SBqyT7B9">
+                                <a target="_blank" href="https://forms.gle/yjkfS7g99SBqyT7B9">
                                     <div className="bg-purple-700 w-full px-4 py-2 text-center rounded-lg transition-all duration-300 hover:scale-105">
                                         Senari
                                     </div>
                                 </a>
-                                <a href="https://forms.gle/7PxzY1ZTa5Gx6vnq5">
+                                <a target="_blank" href="https://forms.gle/7PxzY1ZTa5Gx6vnq5">
                                     <div className="bg-green-700 w-full px-4 py-2 text-center rounded-lg transition-all duration-300 hover:scale-105">
                                         Senadimas
                                     </div>
