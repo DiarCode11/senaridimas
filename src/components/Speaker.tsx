@@ -33,7 +33,7 @@ const speakerGroups = [
         id: 3, 
         name: "Luthfi Ilham Ramdhani, S. Sos", 
         img: lutfi,
-        jabatan: "Direktorat Riset, Teknologi, dan Pengabdian kepada Masyarakat"
+        jabatan: <>Direktorat Riset, Teknologi, dan Pengabdian kepada masyarakat<br></br> KEMENTRIAN PENDIDIKAN, KEBUDAYAAN, RISET DAN TEKNOLOGI</>
       },
       { 
         id: 4, 

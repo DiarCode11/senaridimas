@@ -16,7 +16,7 @@ export default function Hero() {
                 >
                     <span className="text-2xl text-shadow-amber-100 font-semibold">Selamat Datang di</span>
                     <br></br>
-                    SENARIDIMAS 2025 (SENARI DAN SENADIMAS )
+                    SENARIDIMAS 2025<br></br> (SENARI DAN SENADIMAS )
                 </h1>
                 <p className="text-center text-white shadow-2xl">
                     Riset dan Pengabdian untuk Indonesia: Mewujudkan Kampus Berdampak dalam Pembangunan Berkelanjutan
