@@ -63,7 +63,7 @@ export default function Contact() {
         <div id="contact" className="bg-gray-800 py-20">
             <div className="container mx-auto grid sm:grid-cols-2 grid-cols-1 sm:gap-x-16 gap-y-6 text-white px-5">
                 <div className="order-2 sm:order-1">
-                    <h1 className="font-bold text-2xl uppercase pb-8">Pengelenggara</h1>
+                    <h1 className="font-bold text-2xl uppercase pb-8">Penyelenggara</h1>
                     { OrganizerInfo.map((data, idx) => (
                         <a href={data.url} target="_blank">
                             <div key={idx} className="flex items-center space-x-3 pb-5 cursor-pointer">
