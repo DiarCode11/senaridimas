@@ -38,6 +38,10 @@ export default function Schedule() {
         }
     ];
 
+    const no_rek : string = "008801002740307";
+    const atas_nama: string = "RPL 132 BLU UNDIKSHA UNTUK OPS NON BRIVA"
+    const bank: string = "BRI";
+
     return (
         <div id="schedule" className="py-20 container mx-auto">
             <h1 className="w-full text-center c sm:text-3xl text-2xl font-bold uppercase">Jadwal & Pendaftaran</h1>
@@ -73,7 +77,7 @@ export default function Schedule() {
                         Pendaftaran
                     </div>
                     <div className="py-5 px-7">
-                        <h1 className="uppercase text-purple-700 font-bold text-2xl">senari</h1>
+                        <h1 className="uppercase text-purple-700 font-bold text-2xl pb-3">Seminar Nasional Riset dan Inovasi (SENARI)</h1>
                         <ol className="list-decimal list-inside opacity-55 space-y-2">
                             <li>
                                 Peserta dapat mendaftarkan Abstrak atau Full paper
@@ -94,12 +98,12 @@ export default function Schedule() {
                                 Peserta yang dinyatakan diterima wajib menyiapkan file presentasi serta melakukan presentasi pada jadwal yang telah ditetapkan.
                             </li>
                             <li>
-                                Pemakalah melakukan pembayaran ke no rek <strong>XXXXX (BRI)</strong> a.n. <strong>QWERTYUIOP</strong> dan wajib konfirmasi <a href="https://forms.gle/yjkfS7g99SBqyT7B9" className="underline pl-1 font-semibold text-purple-700">disini</a>.
+                                Pemakalah melakukan pembayaran ke no rek <strong>{no_rek} ({bank})</strong> a.n. <strong>{atas_nama}</strong> dan wajib konfirmasi <a href="https://forms.gle/yjkfS7g99SBqyT7B9" className="underline pl-1 font-semibold text-purple-700">disini</a>.
                             </li>
                         </ol>
                     </div>
                     <div className="py-5 px-7">
-                        <h1 className="uppercase text-green-700 font-bold text-2xl">senadimas</h1>
+                        <h1 className="uppercase text-green-700 font-bold text-2xl pb-3">Seminar Nasional Pengabdian Kepada Masyarakat (Senadimas)</h1>
                         <ol className="list-decimal list-inside opacity-55 space-y-3">
                             <li>
                                 Pemakalah wajib mengumpulkan artikel/makalah lengkap (full paper) yang nantinya akan melalui proses blind review
@@ -114,11 +118,10 @@ export default function Schedule() {
                                 Tautan video presentasi tersebut dicantumkan pada form konfirmasi pembayaran.
                                 <div className="mt-1 space-x-3">
                                 <a href="https://conference.undiksha.ac.id/senadimas/assets/file/template_video.pdf" className="underline pl-1 font-semibold text-green-700">Tautan Ketentuan Video</a>
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVYs6T1YrMWA9rGriv-imEvgd8AWrCdpZ73tggQN3o1W4RrA/viewform" className="underline pl-1 font-semibold text-green-700">Tautan Unggah Video</a>
                                 </div>
                             </li>
                             <li>
-                                Pemakalah melakukan pembayaran ke no rek <strong>XXXXX (BRI)</strong> a.n. <strong>QWERTYUIOP</strong> dan wajib konfirmasi <a href="https://forms.gle/7PxzY1ZTa5Gx6vnq5" className="underline pl-1 font-semibold text-green-700">disini</a>.
+                                Pemakalah melakukan pembayaran ke no rek <strong>{no_rek} ({bank})</strong> a.n. <strong>{atas_nama}</strong> dan wajib konfirmasi <a href="https://forms.gle/7PxzY1ZTa5Gx6vnq5" className="underline pl-1 font-semibold text-green-700">disini</a>.
                             </li>
                         </ol>
                     </div>
