@@ -15,11 +15,10 @@ export default function Hero() {
                         textShadow: '1px 1px 2px rgba(0,0,0,0.4)'
                     }}
                 >
-                    <br></br>
                     SENARIDIMAS 2025<br></br> (SENARI DAN SENADIMAS )
                 </h1>
                 <h2 className="text-white text-center sm:text-2xl uppercase pb-1 font-semibold text-shadow-2xs">Seminar Hasil Penelitian dan Seminar Hasil Pengabdian Masyarakat</h2>
-                <p className="text-center text-white shadow-2xl pt-7">
+                <p className="text-center text-white shadow-2xl pt-1 text-base sm:text-lg">
                     Riset dan Pengabdian untuk Indonesia: Mewujudkan Kampus Berdampak dalam Pembangunan Berkelanjutan
                 </p>
                 <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-7">
