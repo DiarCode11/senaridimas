@@ -9,16 +9,17 @@ export default function Hero() {
             }}
         >
             <div className="flex flex-col">
-                <h1 className="text-5xl sm:text-5xl font-bold uppercase text-center text-white shadow-2xl"
+                <span className="sm:text-2xl text-center text-white text-shadow-amber-100 font-semibold">Selamat Datang di</span>
+                <h1 className="text-[27px] sm:text-4xl font-bold uppercase text-center text-white "
                     style={{
                         textShadow: '1px 1px 2px rgba(0,0,0,0.4)'
                     }}
                 >
-                    <span className="text-2xl text-shadow-amber-100 font-semibold">Selamat Datang di</span>
                     <br></br>
                     SENARIDIMAS 2025<br></br> (SENARI DAN SENADIMAS )
                 </h1>
-                <p className="text-center text-white shadow-2xl">
+                <h2 className="text-white text-center sm:text-2xl uppercase pb-1 font-semibold text-shadow-2xs">Seminar Hasil Penelitian dan Seminar Hasil Pengabdian Masyarakat</h2>
+                <p className="text-center text-white shadow-2xl pt-7">
                     Riset dan Pengabdian untuk Indonesia: Mewujudkan Kampus Berdampak dalam Pembangunan Berkelanjutan
                 </p>
                 <div className="flex flex-col sm:flex-row gap-5 justify-center items-center pt-7">

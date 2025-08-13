@@ -21,7 +21,7 @@ const speakerGroups = [
         id: 2, 
         name: "Prof. Dr. I Gusti Ayu Purnamawati, S.E., M.Si., Ak.", 
         img: purnamawati,
-        jabatan: "Koordinator Program Studi Akuntansi Sektor Publik (D4) Fakultas Ekonomi Undiksha"
+        jabatan: <>Koordinator Program Studi Akuntansi Sektor Publik (D4)<br></br> FAKULTAS EKONOMI UNDIKSHA</>
       },
     ],
   },
