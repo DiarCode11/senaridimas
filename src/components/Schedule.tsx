@@ -9,30 +9,40 @@ export default function Schedule() {
         {
             id: 1,
             date: "Senin, 1 September 2025",
-            desc: "Batas penerimaan abstrak"
+            desc: "Batas penerimaan abstrak (Senari)"
         },
         {
             id: 2,
             date: "Kamis, 4 September 2025",
-            desc: "Pengumuman abstrak yang diterima"
+            desc: "Pengumuman abstrak yang diterima (Senari)"
         },
         {
             id: 3,
             date: "Jumat, 19 September 2025",
-            desc: "Batas pengumpulan full paper dan batas pembayaran"
+            desc: "Batas pengumpulan full paper (Senari dan Senadimas) serta batas pembayaran Senari"
         },
         {
             id: 4,
-            date: "Jumat, 17 Oktober 2025",
-            desc: "Pengumpulan video presentasi"
+            date: "Senin, 22 September 2025",
+            desc: "Pengumuman full paper Senadimas yang diterima"
         },
         {
             id: 5,
+            date: "Jumat, 26 September 2025",
+            desc: "Batas pembayaran senadimas"
+        },
+        {
+            id: 6,
+            date: "Jumat, 17 Oktober 2025",
+            desc: "Pengumpulan video presentasi (Senari dan Senadimas)"
+        },
+        {
+            id: 7,
             date: "Kamis, 23 Oktober 2025",
             desc: "Pelaksanaan Senari"
         },
         {
-            id: 6,
+            id: 8,
             date: "Jumat, 24 Oktober 2025",
             desc: "Pelaksanaan Senadimas"
         }
@@ -56,8 +66,8 @@ export default function Schedule() {
                                 <div key={idx} className="py-3 relative flex flex-col pl-7">
                                     <span className={`absolute left-0 w-1 bg-gray-400 z-10 ${idx == 0 ? 'h-1/2 bottom-0': (idx == schedule.length - 1 ? 'h-1/2 top-0' : 'h-full bottom-0')}`}></span>
                                     <span className="h-3 w-3 rounded-full bg-purple-700 absolute -left-1 z-20 top-1/2 -translate-y-3"></span>
-                                    { item.id === 5 || item.id === 6 ? (
-                                        <div className={`${item.id === 5 ? 'bg-purple-700' : 'bg-green-700'} p-3 rounded-lg`}>
+                                    { item.id === 7 || item.id === 8 ? (
+                                        <div className={`${item.id === 7 ? 'bg-purple-700' : 'bg-green-700'} p-3 rounded-lg`}>
                                             <h1 className="text-white font-bold text-xl">{item.date}</h1>
                                             <p className="text-white opacity-80">{item.desc}</p>
                                         </div>

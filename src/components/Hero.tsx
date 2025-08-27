@@ -17,7 +17,7 @@ export default function Hero() {
                 >
                     SENARIDIMAS 2025<br></br> (SENARI DAN SENADIMAS )
                 </h1>
-                <h2 className="text-white text-center sm:text-2xl uppercase pb-1 font-semibold text-shadow-2xs">Seminar hasil penelitian dan Pengabdian kepada Masyarakat</h2>
+                <h2 className="text-white text-center sm:text-2xl uppercase pb-1 font-semibold text-shadow-2xs">Seminar nasional hasil penelitian dan Pengabdian kepada Masyarakat</h2>
                 <p className="text-center text-white shadow-2xl pt-1 text-base sm:text-lg">
                     Riset dan Pengabdian untuk Indonesia: Mewujudkan Kampus Berdampak dalam Pembangunan Berkelanjutan
                 </p>
