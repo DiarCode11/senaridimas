@@ -19,22 +19,22 @@ export default function Schedule() {
         {
             id: 3,
             date: "Jumat, 19 September 2025",
-            desc: "Batas pengumpulan full paper (Senari dan Senadimas) serta batas pembayaran Senari"
+            desc: "Batas penerimaan (abstrak/full paper) untuk SENARI dan batas penerimaan full paper untuk SENADIMAS"
         },
         {
             id: 4,
             date: "Senin, 22 September 2025",
-            desc: "Pengumuman full paper Senadimas yang diterima"
+            desc: "Pengumuman paper SENARI dan SENADIMAS yang diterima"
         },
         {
             id: 5,
             date: "Jumat, 26 September 2025",
-            desc: "Batas pembayaran senadimas"
+            desc: "Batas pembayaran SENARI dan SENADIMAS"
         },
         {
             id: 6,
             date: "Jumat, 17 Oktober 2025",
-            desc: "Pengumpulan video presentasi (Senari dan Senadimas)"
+            desc: "Pengumpulan video presentasi SENARI dan SENADIMAS"
         },
         {
             id: 7,
@@ -73,8 +73,8 @@ export default function Schedule() {
                                         </div>
                                     ) : (
                                         <div>
-                                            <h1 className="text-green-500 font-semibold text-lg">{item.date}</h1>
-                                            <p className="opacity-55">{item.desc}</p>
+                                            <h1 className={`text-green-500 font-semibold text-lg ${(item.id === 1 || item.id === 2) && "line-through text-neutral-400"}`}>{item.date}</h1>
+                                            <p className={`opacity-55 ${(item.id === 1 || item.id === 2) && "line-through text-neutral-400"}`}>{item.desc}</p>
                                         </div>
                                     )  }
                                 </div>
